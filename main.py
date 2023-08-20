@@ -44,7 +44,7 @@ def button_clikced():
         elif 35< BMI :
             label.config(text=str(BMI) + " : EXTREMLY OBESE")
     except ValueError:
-        label.config(text="Hatalı giriş lütfen geçerli bir sayı giriniz!")
+        label.config(text="Incorrect entry please enter a valid integer!")
 
 # Button
 button = Button(text="Calculate", command=button_clikced)
